@@ -28,8 +28,8 @@ Partial Class Form2
         Dim DirectorLabel As System.Windows.Forms.Label
         Dim GeneroLabel As System.Windows.Forms.Label
         Dim Hora_de_la_FunciónLabel As System.Windows.Forms.Label
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Dim ProductorLabel As System.Windows.Forms.Label
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Me.btn_volver = New System.Windows.Forms.Button()
         Me.btn_creditos = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -37,6 +37,8 @@ Partial Class Form2
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.tbx_sala = New System.Windows.Forms.TextBox()
+        Me.PeliculasBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.PeliculasDataSet1 = New WindowsApp3.PeliculasDataSet1()
         Me.PeliculasBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.PeliculasDataSet = New WindowsApp3.PeliculasDataSet()
         Me.tbx_titulo = New System.Windows.Forms.TextBox()
@@ -48,8 +50,6 @@ Partial Class Form2
         Me.btn_editar = New System.Windows.Forms.Button()
         Me.PeliculasTableAdapter = New WindowsApp3.PeliculasDataSetTableAdapters.PeliculasTableAdapter()
         Me.TableAdapterManager = New WindowsApp3.PeliculasDataSetTableAdapters.TableAdapterManager()
-        Me.PeliculasDataSet1 = New WindowsApp3.PeliculasDataSet1()
-        Me.PeliculasBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.PeliculasTableAdapter1 = New WindowsApp3.PeliculasDataSet1TableAdapters.PeliculasTableAdapter()
         Me.TableAdapterManager1 = New WindowsApp3.PeliculasDataSet1TableAdapters.TableAdapterManager()
         Me.PeliculasDataGridView = New System.Windows.Forms.DataGridView()
@@ -69,10 +69,10 @@ Partial Class Form2
         ProductorLabel = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PeliculasBindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PeliculasDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PeliculasBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PeliculasDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PeliculasDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PeliculasBindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PeliculasDataGridView, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -126,6 +126,16 @@ Partial Class Form2
         Hora_de_la_FunciónLabel.TabIndex = 23
         Hora_de_la_FunciónLabel.Text = "Hora de la Función:"
         '
+        'ProductorLabel
+        '
+        ProductorLabel.AutoSize = True
+        ProductorLabel.ForeColor = System.Drawing.Color.White
+        ProductorLabel.Location = New System.Drawing.Point(131, 151)
+        ProductorLabel.Name = "ProductorLabel"
+        ProductorLabel.Size = New System.Drawing.Size(56, 13)
+        ProductorLabel.TabIndex = 24
+        ProductorLabel.Text = "Productor:"
+        '
         'btn_volver
         '
         Me.btn_volver.Location = New System.Drawing.Point(11, 423)
@@ -171,7 +181,7 @@ Partial Class Form2
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(36, 65)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(54, 16)
+        Me.Label1.Size = New System.Drawing.Size(53, 16)
         Me.Label1.TabIndex = 7
         Me.Label1.Text = "Germo"
         '
@@ -194,6 +204,16 @@ Partial Class Form2
         Me.tbx_sala.Name = "tbx_sala"
         Me.tbx_sala.Size = New System.Drawing.Size(100, 20)
         Me.tbx_sala.TabIndex = 9
+        '
+        'PeliculasBindingSource1
+        '
+        Me.PeliculasBindingSource1.DataMember = "Peliculas"
+        Me.PeliculasBindingSource1.DataSource = Me.PeliculasDataSet1
+        '
+        'PeliculasDataSet1
+        '
+        Me.PeliculasDataSet1.DataSetName = "PeliculasDataSet1"
+        Me.PeliculasDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'PeliculasBindingSource
         '
@@ -287,16 +307,6 @@ Partial Class Form2
         Me.TableAdapterManager.PeliculasTableAdapter = Me.PeliculasTableAdapter
         Me.TableAdapterManager.UpdateOrder = WindowsApp3.PeliculasDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
         '
-        'PeliculasDataSet1
-        '
-        Me.PeliculasDataSet1.DataSetName = "PeliculasDataSet1"
-        Me.PeliculasDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'PeliculasBindingSource1
-        '
-        Me.PeliculasBindingSource1.DataMember = "Peliculas"
-        Me.PeliculasBindingSource1.DataSource = Me.PeliculasDataSet1
-        '
         'PeliculasTableAdapter1
         '
         Me.PeliculasTableAdapter1.ClearBeforeFill = True
@@ -364,16 +374,6 @@ Partial Class Form2
         Me.tbx_hora.Size = New System.Drawing.Size(100, 20)
         Me.tbx_hora.TabIndex = 24
         '
-        'ProductorLabel
-        '
-        ProductorLabel.AutoSize = True
-        ProductorLabel.ForeColor = System.Drawing.Color.White
-        ProductorLabel.Location = New System.Drawing.Point(131, 151)
-        ProductorLabel.Name = "ProductorLabel"
-        ProductorLabel.Size = New System.Drawing.Size(56, 13)
-        ProductorLabel.TabIndex = 24
-        ProductorLabel.Text = "Productor:"
-        '
         'tbx_productor
         '
         Me.tbx_productor.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PeliculasBindingSource1, "Productor", True))
@@ -412,15 +412,16 @@ Partial Class Form2
         Me.Controls.Add(Me.btn_creditos)
         Me.Controls.Add(Me.btn_volver)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Cartelera"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PeliculasBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PeliculasDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PeliculasBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PeliculasDataSet, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PeliculasDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PeliculasBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PeliculasDataGridView, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

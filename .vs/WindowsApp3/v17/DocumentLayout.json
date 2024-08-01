@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\germo\\OneDrive\\Desktop\\Cine\\",
+  "WorkspaceRootPath": "C:\\Users\\germo\\OneDrive\\Documents\\Tareas\\Cinex\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B752328E-AF15-4C68-80EF-CA27545AB89E}|WindowsApp3.vbproj|C:\\Users\\germo\\OneDrive\\Desktop\\Cine\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{B752328E-AF15-4C68-80EF-CA27545AB89E}|WindowsApp3.vbproj|c:\\users\\germo\\onedrive\\documents\\tareas\\cinex\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{B752328E-AF15-4C68-80EF-CA27545AB89E}|WindowsApp3.vbproj|solutionrelative:form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B752328E-AF15-4C68-80EF-CA27545AB89E}|WindowsApp3.vbproj|C:\\Users\\germo\\OneDrive\\Desktop\\Cine\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{B752328E-AF15-4C68-80EF-CA27545AB89E}|WindowsApp3.vbproj|solutionrelative:form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B752328E-AF15-4C68-80EF-CA27545AB89E}|WindowsApp3.vbproj|C:\\Users\\germo\\OneDrive\\Desktop\\Cine\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{B752328E-AF15-4C68-80EF-CA27545AB89E}|WindowsApp3.vbproj|solutionrelative:form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B752328E-AF15-4C68-80EF-CA27545AB89E}|WindowsApp3.vbproj|C:\\Users\\germo\\OneDrive\\Desktop\\Cine\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{B752328E-AF15-4C68-80EF-CA27545AB89E}|WindowsApp3.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B752328E-AF15-4C68-80EF-CA27545AB89E}|WindowsApp3.vbproj|c:\\users\\germo\\onedrive\\desktop\\cine\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{B752328E-AF15-4C68-80EF-CA27545AB89E}|WindowsApp3.vbproj|C:\\Users\\germo\\OneDrive\\Documents\\Tareas\\Cinex\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{B752328E-AF15-4C68-80EF-CA27545AB89E}|WindowsApp3.vbproj|solutionrelative:form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B752328E-AF15-4C68-80EF-CA27545AB89E}|WindowsApp3.vbproj|C:\\Users\\germo\\OneDrive\\Desktop\\Cine\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{B752328E-AF15-4C68-80EF-CA27545AB89E}|WindowsApp3.vbproj|C:\\Users\\germo\\OneDrive\\Documents\\Tareas\\Cinex\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{B752328E-AF15-4C68-80EF-CA27545AB89E}|WindowsApp3.vbproj|solutionrelative:form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B752328E-AF15-4C68-80EF-CA27545AB89E}|WindowsApp3.vbproj|C:\\Users\\germo\\OneDrive\\Documents\\Tareas\\Cinex\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{B752328E-AF15-4C68-80EF-CA27545AB89E}|WindowsApp3.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B752328E-AF15-4C68-80EF-CA27545AB89E}|WindowsApp3.vbproj|C:\\Users\\germo\\OneDrive\\Documents\\Tareas\\Cinex\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{B752328E-AF15-4C68-80EF-CA27545AB89E}|WindowsApp3.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B752328E-AF15-4C68-80EF-CA27545AB89E}|WindowsApp3.vbproj|C:\\Users\\germo\\OneDrive\\Documents\\Tareas\\Cinex\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{B752328E-AF15-4C68-80EF-CA27545AB89E}|WindowsApp3.vbproj|solutionrelative:form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +38,11 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Form1.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\germo\\OneDrive\\Desktop\\Cine\\Form1.vb",
+              "DocumentMoniker": "C:\\Users\\germo\\OneDrive\\Documents\\Tareas\\Cinex\\Form1.vb",
               "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "C:\\Users\\germo\\OneDrive\\Desktop\\Cine\\Form1.vb [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\germo\\OneDrive\\Documents\\Tareas\\Cinex\\Form1.vb [Dise\u00F1o]",
               "RelativeToolTip": "Form1.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-07-31T20:58:31.215Z",
@@ -51,13 +51,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Form1.vb",
-              "DocumentMoniker": "C:\\Users\\germo\\OneDrive\\Desktop\\Cine\\Form1.vb",
+              "DocumentMoniker": "C:\\Users\\germo\\OneDrive\\Documents\\Tareas\\Cinex\\Form1.vb",
               "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "C:\\Users\\germo\\OneDrive\\Desktop\\Cine\\Form1.vb",
+              "ToolTip": "C:\\Users\\germo\\OneDrive\\Documents\\Tareas\\Cinex\\Form1.vb",
               "RelativeToolTip": "Form1.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAwCEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-07-31T21:20:13.951Z",
               "IsPinned": true,
@@ -65,11 +65,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Form2.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\germo\\OneDrive\\Desktop\\Cine\\Form2.vb",
+              "DocumentMoniker": "C:\\Users\\germo\\OneDrive\\Documents\\Tareas\\Cinex\\Form2.vb",
               "RelativeDocumentMoniker": "Form2.vb",
-              "ToolTip": "C:\\Users\\germo\\OneDrive\\Desktop\\Cine\\Form2.vb [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\germo\\OneDrive\\Documents\\Tareas\\Cinex\\Form2.vb [Dise\u00F1o]",
               "RelativeToolTip": "Form2.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-07-31T20:59:09.978Z",
@@ -78,13 +78,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form2.vb",
-              "DocumentMoniker": "C:\\Users\\germo\\OneDrive\\Desktop\\Cine\\Form2.vb",
+              "DocumentMoniker": "C:\\Users\\germo\\OneDrive\\Documents\\Tareas\\Cinex\\Form2.vb",
               "RelativeDocumentMoniker": "Form2.vb",
-              "ToolTip": "C:\\Users\\germo\\OneDrive\\Desktop\\Cine\\Form2.vb",
+              "ToolTip": "C:\\Users\\germo\\OneDrive\\Documents\\Tareas\\Cinex\\Form2.vb",
               "RelativeToolTip": "Form2.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-07-31T22:15:39.783Z",
               "IsPinned": true,
@@ -94,9 +94,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form3.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\germo\\OneDrive\\Desktop\\Cine\\Form3.vb",
+              "DocumentMoniker": "C:\\Users\\germo\\OneDrive\\Documents\\Tareas\\Cinex\\Form3.vb",
               "RelativeDocumentMoniker": "Form3.vb",
-              "ToolTip": "C:\\Users\\germo\\OneDrive\\Desktop\\Cine\\Form3.vb [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\germo\\OneDrive\\Documents\\Tareas\\Cinex\\Form3.vb [Dise\u00F1o]",
               "RelativeToolTip": "Form3.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-07-31T20:59:35.732Z",
@@ -105,17 +105,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Form3.vb",
-              "DocumentMoniker": "C:\\Users\\germo\\OneDrive\\Desktop\\Cine\\Form3.vb",
+              "DocumentMoniker": "C:\\Users\\germo\\OneDrive\\Documents\\Tareas\\Cinex\\Form3.vb",
               "RelativeDocumentMoniker": "Form3.vb",
-              "ToolTip": "C:\\Users\\germo\\OneDrive\\Desktop\\Cine\\Form3.vb",
+              "ToolTip": "C:\\Users\\germo\\OneDrive\\Documents\\Tareas\\Cinex\\Form3.vb",
               "RelativeToolTip": "Form3.vb",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-07-31T23:28:49.493Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
